@@ -1,132 +1,111 @@
-📊 Customer Segmentation & Price Prediction System
+# Customer Segmentation and Price Prediction
 
-End-to-end data science project that analyzes UK supermarket data to perform customer segmentation and product price prediction using machine learning techniques. The project also includes an interactive web interface for basket optimization.
+End-to-end data science project analyzing UK supermarket data with machine learning models and an interactive web interface.
 
-🚀 Project Overview
+---
 
-This project combines data preprocessing, exploratory data analysis, machine learning modeling, and web application deployment.
+## 🔎 Project Description
 
-It aims to:
+This project performs:
 
-Predict future product prices using Linear Regression
+✅ Customer/product segmentation using **K-Means Clustering**  
+✅ Price prediction using **Linear Regression**  
+✅ Shopping basket optimization simulation  
+✅ Web interface using **Streamlit**  
 
-Segment customers/products using K-Means Clustering
+It demonstrates a complete data science workflow: data preprocessing, modeling, evaluation, and an interactive UI for predictions.
 
-Optimize shopping baskets using simulation techniques
+---
 
-Provide an interactive Streamlit web interface
+## 🧠 Machine Learning Models
 
-🧠 Machine Learning Models
-📈 Price Prediction
+### 📊 Price Prediction
+- Model: **Linear Regression**
+- High performance with R² ≈ **99.86%**
+- Predicts future prices based on historical data.
 
-Algorithm: Linear Regression
+### 🧩 Customer/Product Segmentation
+- Algorithm: **K-Means Clustering**
+- Clusters products into similar groups for basket optimization and analysis.
 
-Performance: R² ≈ 99.86%
+---
 
-Used for forecasting product prices based on historical data
+## 🖥 Web Application Preview
 
-🧩 Customer / Product Segmentation
+### Product Selection
+![Product Selection](screenshots/product_selection.png)
 
-Algorithm: K-Means Clustering
+---
 
-Groups products/customers into meaningful segments
+### Price Prediction Result
+![Price Prediction](screenshots/price_prediction.png)
 
-Supports basket optimization strategy
+---
 
-🖥 Web Application Preview
-Product Selection Interface
+### Basket Optimization View
+![Basket Optimization](screenshots/basket_optimization.png)
 
-Price Prediction Result
+---
 
-Basket Optimization
+## 🛠 Technologies Used
 
-🛠 Technologies Used
-Programming Languages
+### Languages & Libraries
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-Learn  
+- Matplotlib  
+- Seaborn
 
-Python
+### Web / UI
+- Streamlit  
+- HTML & CSS  
+- React (UI components)
 
-JavaScript
+### Databases
+- PostgreSQL  
+- MySQL
 
-Machine Learning & Data Science
+---
 
-Pandas
+## 🗂 Project Structure
 
-NumPy
-
-Scikit-learn
-
-Matplotlib
-
-Seaborn
-
-Web Technologies
-
-Streamlit
-
-HTML
-
-CSS
-
-React (UI Components)
-
-Databases
-
-PostgreSQL
-
-MySQL
-
-📂 Project Structure
-customer-segmentation-and-price-prediction
+customer-segmentation-and-price-prediction/
 │
-├── notebooks
-├── models
-├── screenshots
+├── notebooks/
+├── models/
+├── screenshots/
 ├── basket_optimizer_app.py
 ├── requirements.txt
 └── README.md
 
-⚙ Installation
+---
 
-Clone repository:
+## ⚙️ Installation
+
+Clone the repository:
 
 git clone https://github.com/ibrahimvural08/customer-segmentation-and-price-prediction.git
-
-
 Install dependencies:
 
 pip install -r requirements.txt
 
 
-Run Streamlit app:
+Run the Streamlit app:
 
 streamlit run basket_optimizer_app.py
 
-📊 Dataset
+---
 
-UK supermarket price dataset (January – April 2024)
+## 📁 Dataset
 
-Includes:
+The dataset contains UK supermarket prices from January to April 2024, including product and category price history.
 
-Product price history
+---
 
-Supermarket categories
+## 👨‍💻 Developer
 
-Product metadata
+**İbrahim Vural**  
+📧 ibrahimvur08@gmail.com  
+🔗 https://www.linkedin.com/in/ibrahim-vural-51362229a/
 
-🎯 Project Goals
-
-Demonstrate full data science workflow
-
-Apply machine learning models on real-world data
-
-Build deployable and user-friendly applications
-
-Improve decision-making using predictive analytics
-
-👨‍💻 Developer
-
-İbrahim Vural
-
-📧 ibrahimvur08@gmail.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/ibrahim-vural-51362229a/
